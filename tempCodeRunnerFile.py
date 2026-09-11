@@ -1,6 +1,5 @@
-Start = int(input("Enter your starting number:"))
-Stop = int (input("Enter your stoping number:"))
-i = Start 
-while i <= Stop:
-    print(i)
-    i = i+1 
+for i in range (1,6):
+ for j in range (1,6):
+    if j == 3:
+        break
+    print(i,j)
