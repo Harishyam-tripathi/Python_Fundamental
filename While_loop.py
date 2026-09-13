@@ -71,3 +71,54 @@ while i <= Stop:
     print(i)
     i = i+1 
     
+#12. Write a program to print the table of '7'.
+
+i = 1 
+while i <= 10:
+    print ("7*",i,"=",7*i)
+    i= i+1
+
+# 13. WAP to print the table of '12'.
+
+i = 1 
+while i <= 10:
+    print ("12 *" ,i,"=", 12*i)
+    i = i+ 1
+
+# WAP add all the given num is starting from 1 to 5.
+
+i = 1
+sum = 0
+while i <= 5:
+    sum = sum +  i
+    i = i+1
+print("Addition all the number is",sum)
+
+# WAP add all the given num is starting from 1 to 15.
+
+i = 1
+sum = 0
+while i <= 15:
+    sum = sum +i
+    i = i + 1
+print("addition Result is",sum)
+
+#WAP to multiply all the given num is starting from 1 to 7.
+
+i = 1
+mult =1 
+while i <= 7:
+    mult = mult * i
+    i = i + 1
+print ("Result of multiply is",mult)
+
+# Generate Infinite loop.
+
+while 5>4:
+    print("it is infinite loop")
+    
+
+
+
+
+
