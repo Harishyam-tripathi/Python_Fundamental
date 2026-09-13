@@ -1,3 +1,6 @@
-X = "python"
-print(X[::-1])
-print(X[2:3])
+i = 1
+sum = 0
+while i <= 15:
+    sum = sum +i
+    i = i + 1
+print("addition Result is",sum)
