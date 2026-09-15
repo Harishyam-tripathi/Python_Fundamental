@@ -85,7 +85,7 @@ while i <= 10:
     print ("12 *" ,i,"=", 12*i)
     i = i+ 1
 
-# WAP add all the given num is starting from 1 to 5.
+# 14.WAP add all the given num is starting from 1 to 5.
 
 i = 1
 sum = 0
@@ -94,7 +94,7 @@ while i <= 5:
     i = i+1
 print("Addition all the number is",sum)
 
-# WAP add all the given num is starting from 1 to 15.
+# 15.WAP add all the given num is starting from 1 to 15.
 
 i = 1
 sum = 0
@@ -103,7 +103,7 @@ while i <= 15:
     i = i + 1
 print("addition Result is",sum)
 
-#WAP to multiply all the given num is starting from 1 to 7.
+#16. WAP to multiply all the given num is starting from 1 to 7.
 
 i = 1
 mult =1 
@@ -117,8 +117,46 @@ print ("Result of multiply is",mult)
 while 5>4:
     print("it is infinite loop")
     
+#16. WAP to count the number of digit 457 inside the given number.
+ 
+
+count = 0
+num = 457
+while num > 0:
+    count = count + 1
+    num = num//10
+print("Number of digit present inside the given num is:",count)
+    
+
+#17. WAP to count the number of digit 457 inside the given number by user input.
+
+num= int(input("Enter your number:"))
+count = 0
+while num > 0:
+    count = count + 1
+    num = num // 10
+  
+print("Number of digit present inside the given num is",count)
 
 
 
+# 18. WAP to add all the digit that is preset inside the given number.
 
+sum = 0
+num = 245
+while num > 0:
+    ld = num % 10
+    sum = sum + ld
+    num = num // 10
+print(sum)
+    
+# 18. WAP to add all the digit that is preset inside the given number by user input. 
+   
+num = int (input("Enter your number:"))
+sum = 0
+while num > 0:
+    ld = num % 10
+    sum = sum + ld
+    num = num // 10
+print(sum)
 
