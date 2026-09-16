@@ -1,7 +1,9 @@
-num =  int(input("Enter your number"))
-mult = 1
+product = 1
+num = 245
+
 while num > 0:
-    ld = num%10
-    mult = mult * ld
+    ld = num % 10
+    product = product * ld
     num = num // 10
-    print("Multiply all the digit num is",mult)
+
+print(product)
