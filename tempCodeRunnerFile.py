@@ -1,7 +1,9 @@
+Start = int(input("Enter your number:"))
+Stop = int(input("Enter your second number:"))
 sum = 0
-i = 1 
-while i <= 10:
-    if i % 2!=0:
+i = Start
+while i <= Stop:
+    if i%2!=0:
         sum = sum + i
     i = i+1
-print("sum of all the given odd number is",sum)
+print("sum of all odd num is",sum)
