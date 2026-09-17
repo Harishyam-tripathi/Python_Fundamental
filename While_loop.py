@@ -160,3 +160,92 @@ while num > 0:
     num = num // 10
 print(sum)
 
+# 19.WAP to multiply all the digit present inside the given number.
+num = int(input("Enter a number: "))
+
+product = 1
+
+while num > 0:
+    digit = num % 10
+    product = product * digit
+    num = num // 10
+
+print("Product of all digits =", product)
+
+
+#20.WAP to multiply all the digit present inside the given number.
+
+num =  int(input("Enter your number"))
+mult = 1
+while num > 0:
+    ld = num%10
+    mult = mult * ld
+    num = num // 10
+    print("Multiply all the digit num is",mult)
+    
+##21.WAP to multiply all the digit present inside the given number.  
+    
+product = 1
+num = 245
+
+while num > 0:
+    ld = num % 10
+    product = product * ld
+    num = num // 10
+
+print(product)
+
+
+# 22.WAP to find out the largest digit of a given number.
+
+num = int (input("Enter your num:"))
+largest = 0
+while num > 0:
+    ld = num %10
+    if ld > largest:
+        largest = ld
+    num = num // 10
+print("Largest number is",largest)
+
+# 23.WAP to find out the smallest digit present inside the given number.
+
+num = int (input("Enter your number:"))
+smallest = 9
+while num > 0:
+    ld = num % 10
+    if ld < smallest:
+        smallest = ld
+    num = num // 10
+print("Smallest digit numbers is",smallest)
+
+
+
+Start = int(input("Enter your number:"))
+Stop = int(input("Enter your second number:"))
+i = Start
+while i <= Stop:
+    if i%2==0:
+        print(i)
+    i = i+1
+
+#WAP a program to add the even number starting from 1 to 100.
+sum = 0
+i = 1 
+while i <= 100:
+    if i % 2==0:
+        sum = sum + i
+    i = i+1
+print("sum of all the given even number is",sum)
+
+
+#WAP a program to add the odd number starting from 1 to 100.
+
+sum = 0
+i = 1 
+while i <= 10:
+    if i % 2!=0:
+        sum = sum + i
+    i = i+1
+print("sum of all the given odd number is",sum)
+
+
