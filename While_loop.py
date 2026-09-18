@@ -241,7 +241,7 @@ print("sum of all the given even number is",sum)
 #WAP a program to add the odd number starting from 1 to 100.
 
 sum = 0
-i = 1 
+i = 1
 while i <= 10:
     if i % 2!=0:
         sum = sum + i
@@ -249,3 +249,12 @@ while i <= 10:
 print("sum of all the given odd number is",sum)
 
 
+Start = int(input("Enter your number:"))
+Stop = int(input("Enter your second number:"))
+sum = 0
+i = Start
+while i <= Stop:
+    if i%2!=0:
+        sum = sum + i
+    i = i+1
+print("sum of all odd num is",sum)
