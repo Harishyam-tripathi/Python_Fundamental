@@ -1,9 +1,8 @@
-s = input("Enter a string: ")
+numbers = [10, 25, 5, 40, 15]
 
-count = 0
+largest = numbers[0]
+for i in numbers:
+    if i > largest:
+        largest = i
 
-for i in s:
-    if i.isalpha() and i not in "AEIOUaeiou":
-        count = count + 1
-
-print("Number of consonants =", count)
+print("Largest =", largest)
