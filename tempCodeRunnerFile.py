@@ -1,6 +1,4 @@
-numbers = [10, 25, 5, 40, 15]
-smallest = numbers[0]
-for i in numbers:
-    if i < smallest:
-        smallest = i
-print("Smallest =", smallest)
+num = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
