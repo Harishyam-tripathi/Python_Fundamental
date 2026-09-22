@@ -1,7 +1,12 @@
-def multiply():
-    
-    num1 = int(input("Enter your first number:"))
-    num2 = int(input("Enter your secondd nummber:"))
-    res = num1*num2
-    print("Result of multiply is",res)
-multiply()
+def fibonacci():
+    length = int(input("Enter your length of fibonacci:"))
+    n1,n2 = 0,1
+    print(n1,n2,end = " ")
+    for i in range (length -2):
+        next = n1 + n2
+        print(next, end=" ")
+        n1 = n2
+        n2 = next
+fibonacci()
+print()
+fibonacci()
