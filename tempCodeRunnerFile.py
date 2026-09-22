@@ -1,6 +1,4 @@
-num = int(input("Enter your number: "))
-count = 0
-while num > 0:
-    count = count + 1
-    num = num // 10
-print("Number of digits =", count)
+def addition(a,b):
+    res = a + b
+    print("Result of addition is",res)
+addition(11,20)
