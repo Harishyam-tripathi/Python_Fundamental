@@ -1,4 +1,7 @@
-def addition(a,b):
-    res = a + b
-    print("Result of addition is",res)
-addition(11,20)
+def multiply():
+    
+    num1 = int(input("Enter your first number:"))
+    num2 = int(input("Enter your secondd nummber:"))
+    res = num1*num2
+    print("Result of multiply is",res)
+multiply()
