@@ -1,7 +1,7 @@
-def factorial(num):
-    mult = 1
-    for i in range(1, num + 1):
-        mult = mult * i
-    return mult
-output = factorial(7)
-print("Factorial =", output)
+def largest(n1, n2):
+    if n1 > n2:
+        return n1
+    else:
+        return n2
+output = largest(25, 40)
+print("Largest number =", output)
