@@ -1,7 +1,9 @@
-def largest(n1, n2):
-    if n1 > n2:
-        return n1
-    else:
-        return n2
-output = largest(25, 40)
-print("Largest number =", output)
+def digit_sum(num):
+    sum = 0
+    while num > 0:
+        ld = num % 10
+        sum = sum + ld
+        num = num // 10
+    return sum
+output = digit_sum(245)
+print("Sum of digits =", output)
