@@ -1,7 +1,7 @@
-def check(num):
-    if num % 2 == 0:
-        return "Even"
-    else:
-        return "Odd"
-output = check(6)
-print("Number is", output)
+def factorial(num):
+    mult = 1
+    for i in range(1, num + 1):
+        mult = mult * i
+    return mult
+output = factorial(7)
+print("Factorial =", output)
