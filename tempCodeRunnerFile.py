@@ -1,9 +1,11 @@
-def digit_sum(num):
-    sum = 0
-    while num > 0:
-        ld = num % 10
-        sum = sum + ld
-        num = num // 10
-    return sum
-output = digit_sum(245)
-print("Sum of digits =", output)
+def calculate(n1, n2):
+
+    addition = n1 + n2
+    multiplication = n1 * n2
+
+    return addition, multiplication
+
+output = calculate(5, 4)
+
+print("Addition =", output[0])
+print("Multiplication =", output[1])
