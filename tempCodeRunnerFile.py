@@ -1,11 +1,7 @@
-def calculate(n1, n2):
-
-    addition = n1 + n2
-    multiplication = n1 * n2
-
-    return addition, multiplication
-
-output = calculate(5, 4)
-
-print("Addition =", output[0])
-print("Multiplication =", output[1])
+num = int(input("Enter your number:"))
+if num>0:
+    print (num,"number is possitive:")
+elif num<0:
+    print(num,"number is negative:")
+else:
+    print("number is zero")
